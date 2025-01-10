@@ -1,0 +1,123 @@
+   /* Genel Stil */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+            background-color: #f4f4f9;
+        }
+        /* Başlık */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 0;
+            font-style: italic;
+        }
+
+        nav li {
+            display: inline;
+            list-style-type: none;
+            border-right: 1px solid rgb(180, 35, 35);
+            
+        }
+        nav li a {
+            color: white;
+            padding: 15px;
+        }
+        nav li:last-child{
+            border-right: 0px solid rgb(1, 3, 12);
+        }
+        /* Ana Bölüm */
+        .main-banner {
+            background-image: url('cafee.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .menu {
+            padding: 20px;
+            text-align: center;
+        }
+        .menu h2 {
+            color: #333;
+        }
+        .menu-items {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .menu-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 150px;
+        }
+        .menu-item h3 {
+            margin: 0;
+            color: #333;
+        }
+        /* Alt Bilgi */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+             /* İçerik */
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .content h2 {
+            color: #ff6347;
+        }
+        .content img {
+            width: 300px;
+            height: auto;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+        .content p {
+            max-width: 600px;
+            text-align: center;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+        /* Ana Menü Butonu */
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff6347;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .back-button:hover {
+            background-color: #ff4500;
+        }
